@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {
   Button, Container, Form,
   FormControl, Nav, Navbar} from "react-bootstrap";
-import logo from './logo192.png'
+import logo from './logo3.png'
 import {
   BrowserRouter as Router,
   Switch, Route, Link} from "react-router-dom";
@@ -17,17 +17,18 @@ class Header extends Component {
     return (
       <>
 
-        <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="md" bg="light" variant="light">
           <Container>
             <Navbar.Brand href="/">
               <img
                   src={logo}
                   height="30"
-                  width="30"
+                  width="70"
+                  style={{paddingRight: 5}}
                   className="d-inline-block align-top"
                   alt="Logo"
               />
-              React Site
+                Unique Clever
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
