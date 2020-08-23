@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/wdb-app/static/css/main.bd04a2c4.chunk.css",
+    "main.js": "/wdb-app/static/js/main.be095589.chunk.js",
+    "main.js.map": "/wdb-app/static/js/main.be095589.chunk.js.map",
+    "runtime-main.js": "/wdb-app/static/js/runtime-main.1f0e35c4.js",
+    "runtime-main.js.map": "/wdb-app/static/js/runtime-main.1f0e35c4.js.map",
+    "static/css/2.11829350.chunk.css": "/wdb-app/static/css/2.11829350.chunk.css",
+    "static/js/2.315d11d5.chunk.js": "/wdb-app/static/js/2.315d11d5.chunk.js",
+    "static/js/2.315d11d5.chunk.js.map": "/wdb-app/static/js/2.315d11d5.chunk.js.map",
+    "index.html": "/wdb-app/index.html",
+    "precache-manifest.e8391364d8e2707a4dc6ad882a865727.js": "/wdb-app/precache-manifest.e8391364d8e2707a4dc6ad882a865727.js",
+    "service-worker.js": "/wdb-app/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/wdb-app/static/css/2.11829350.chunk.css.map",
+    "static/css/main.bd04a2c4.chunk.css.map": "/wdb-app/static/css/main.bd04a2c4.chunk.css.map",
+    "static/js/2.315d11d5.chunk.js.LICENSE.txt": "/wdb-app/static/js/2.315d11d5.chunk.js.LICENSE.txt",
+    "static/media/1.jpeg": "/wdb-app/static/media/1.43580063.jpeg",
+    "static/media/2.jpeg": "/wdb-app/static/media/2.2afc9668.jpeg",
+    "static/media/3.jpeg": "/wdb-app/static/media/3.e196b95a.jpeg",
+    "static/media/4.jpeg": "/wdb-app/static/media/4.1b2e84ba.jpeg",
+    "static/media/5.jpeg": "/wdb-app/static/media/5.617b40be.jpeg",
+    "static/media/6.jpeg": "/wdb-app/static/media/6.af431837.jpeg",
+    "static/media/aizat.jpg": "/wdb-app/static/media/aizat.e3941088.jpg",
+    "static/media/gulasel.jpg": "/wdb-app/static/media/gulasel.c9782fac.jpg",
+    "static/media/kg-math.jpg": "/wdb-app/static/media/kg-math.d6208883.jpg",
+    "static/media/logo3.png": "/wdb-app/static/media/logo3.118a7765.png",
+    "static/media/ru-bio.jpg": "/wdb-app/static/media/ru-bio.d9e974c5.jpg",
+    "static/media/ru-lang.jpg": "/wdb-app/static/media/ru-lang.a0192259.jpg",
+    "static/media/sb-osn.jpg": "/wdb-app/static/media/sb-osn.b2e25786.jpg",
+    "static/media/sb-pred.jpg": "/wdb-app/static/media/sb-pred.7e5bbd58.jpg",
+    "static/media/shirin.png": "/wdb-app/static/media/shirin.a8e6ccd6.png",
+    "static/media/zhamilia.jpg": "/wdb-app/static/media/zhamilia.0099a4d3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f0e35c4.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.315d11d5.chunk.js",
+    "static/css/main.bd04a2c4.chunk.css",
+    "static/js/main.be095589.chunk.js"
+  ]
+}
