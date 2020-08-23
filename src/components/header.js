@@ -5,7 +5,7 @@ import {
 import logo from './logo3.png'
 import {
   BrowserRouter as Router,
-  Switch, Route, Link} from "react-router-dom";
+  Switch, Route} from "react-router-dom";
 
 import Home from "../pages/Home";
 import About from "../pages/About";

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CarouselBox from "../components/CarouselBox";
-import {Button, Card, CardDeck, Container} from "react-bootstrap";
+import { CardDeck, Container} from "react-bootstrap";
+import TeamCard from "../components/TeamCard";
 import shirin from '../assets/team/shirin.png'
 import zhamilia from '../assets/team/zhamilia.jpg'
 import aizat from '../assets/team/aizat.jpg'
@@ -18,65 +19,36 @@ class Home extends Component {
 
           <CardDeck className="m-4">
 
-            <Card bg="warning" border="primary" text="primary">
-              <Card.Img
-                variant="top"
-                src={shirin}
-                alt="Shirin"
-              />
-              <Card.Body>
-                <Card.Title>Mathematics</Card.Title>
-                <Card.Text>Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit. Alias nesciunt praesentium quidem.
-                </Card.Text>
-                <Button variant="primary">About team</Button>
-              </Card.Body>
-            </Card>
+            <TeamCard bg="info"
+                      src={shirin}
+                      alt="Shirin"
+                      title="Mathematics"
+                      cardText="Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit. Alias nesciunt praesentium quidem."
+            />
+            <TeamCard bg="success"
+                      src={gulasel}
+                      alt="Gulasel"
+                      title="Biology"
+                      cardText="Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit. Alias nesciunt praesentium quidem."
+            />
 
-            <Card bg="success" border="primary" text="light">
-              <Card.Img
-                variant="top"
-                src={gulasel}
-                alt="Gulasel"
-              />
-              <Card.Body>
-                <Card.Title>Biology</Card.Title>
-                <Card.Text>Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit. Alias nesciunt praesentium quidem.
-                </Card.Text>
-                <Button variant="primary">About team</Button>
-              </Card.Body>
-            </Card>
+            <TeamCard bg="info"
+                      src={zhamilia}
+                      alt="Zhamilia"
+                      title="Russian Language"
+                      cardText="Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit. Alias nesciunt praesentium quidem."
+            />
 
-            <Card bg="info" border="primary" text="white">
-              <Card.Body>
-                <Card.Title>Russian Language</Card.Title>
-                <Card.Text>Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit. Alias nesciunt praesentium quidem.
-                </Card.Text>
-                <Button variant="primary">About team</Button>
-              </Card.Body>
-              <Card.Img
-                variant="top"
-                src={zhamilia}
-                alt="Zhamilia"
-              />
-            </Card>
-
-            <Card bg="danger" border="primary" text="light">
-              <Card.Img
-                variant="top"
-                src={aizat}
-                alt="Aizat"
-              />
-              <Card.Body>
-                <Card.Title>Kyrgyz Language</Card.Title>
-                <Card.Text>Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit. Alias nesciunt praesentium quidem.
-                </Card.Text>
-                <Button variant="primary">About team</Button>
-              </Card.Body>
-            </Card>
+            <TeamCard bg="danger"
+                      src={aizat}
+                      alt="Aizat"
+                      title="Kyrgyz Language"
+                      cardText="Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit. Alias nesciunt praesentium quidem."
+            />
 
           </CardDeck>
         </Container>
